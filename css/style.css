@@ -534,9 +534,9 @@ h1,h2,h3,h4,h5,h6{
     text-align: justify;
     font-size: 1.2em;
   }
+} 
 
-  
-  @media screen and (min-width:1600px){
+@media screen and (min-width:1600px){
 
     .container{
       width: 1000px;
@@ -624,15 +624,9 @@ h1,h2,h3,h4,h5,h6{
     }
 
     
-  }
-
-
-
-
-
-
-
 }
+
+
 
 
 
