@@ -8,11 +8,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/iconos.css">
+    <link rel="stylesheet" href="css/galeria.css">
    
 
   </head>
 
   <body>
+
+    <div class="modal" id="modal">
+      <div class="modal__content">
+        <img src="" alt="" class="modal__img" id="modal__img">
+      </div>
+      <div class="modal__boton" id="modal__boton">X</div>
+    </div>
 
     <header class="main-header">
       <div class="container container--flex">
@@ -41,9 +49,9 @@
             <li class="menu__item"><a href="contacto.html" class="menu__link">Contacto</a></li>
           </ul>
           <div class="social-icon">
-            <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
-            <a href="" class="social-icon__link"><span class="icon-instagram"></span></a>
-            <a href="" class="social-icon__link"><span class="icon-whatsapp"></span></a>
+            <a href="https://www.facebook.com/laylatribal" class="social-icon__link"><span class="icon-facebook"></span></a>
+            <a href="https://www.instagram.com/laylajacob_bellydancer/?hl=es-la" class="social-icon__link"><span class="icon-instagram"></span></a>
+            <a href="https://api.whatsapp.com/send?phone=+573007424374" class="social-icon__link"><span class="icon-whatsapp"></span></a>
           </div>
         </div>
       </nav>
@@ -54,8 +62,68 @@
       </section>
 
       <main class="main">
-        
-       
+        <div class="group-gallery">
+          <h2 class="group__tittle">Layla Jacob</h2>
+          <div class="container container--flex">
+            <div class="column column--50-25">
+              <img src="fotos/layla/layla6.jpg" alt="" class="gallery__img gallery__img--big">
+              <img src="fotos/layla/layla2.jpg" alt="" class="gallery__img gallery__img--small">
+            </div>
+            <div class="column column--50-25">
+              <img src="fotos/layla/layla3.jpg" alt="" class="gallery__img gallery__img--small">
+              <img src="fotos/layla/layla4.jpg" alt="" class="gallery__img gallery__img--big">
+            </div>
+            <div class="column column--50-25">
+              <img src="fotos/layla/layla5.jpg" alt="" class="gallery__img gallery__img--big">
+              <img src="fotos/layla/layla1.jpg" alt="" class="gallery__img gallery__img--small">
+            </div>
+            <div class="column column--50-25">
+              <img src="fotos/layla/layla11.jpg" alt="" class="gallery__img gallery__img--small">
+              <img src="fotos/layla/layla15.jpg" alt="" class="gallery__img gallery__img--big">
+            </div>
+            <div class="column column--50-25">
+              <img src="fotos/layla/layla17.jpg" alt="" class="gallery__img gallery__img--big">
+              <img src="fotos/layla/layla10.jpg" alt="" class="gallery__img gallery__img--small">
+            </div>
+            <div class="column column--50-25">
+              <img src="fotos/layla/layla12.jpg" alt="" class="gallery__img gallery__img--small">
+              <img src="fotos/layla/layla9.jpg" alt="" class="gallery__img gallery__img--big">
+            </div>
+          </div>
+
+        </div>
+
+        <div class="group-gallery">
+          <h2 class="group__tittle">Dia Internacional Del Teatro</h2>
+          <div class="container container--flex">
+            <div class="column column--50-25">
+              <img src="fotos/diadelteatro/diateatro5.jpg" alt="" class="gallery__img gallery__img--small">
+              <img src="fotos/diadelteatro/diateatro1.jpg" alt="" class="gallery__img gallery__img--small">
+            </div>
+            <div class="column column--50-25">
+              <img src="fotos/diadelteatro/diateatro2.jpg" alt="" class="gallery__img gallery__img--small">
+              <img src="fotos/diadelteatro/diateatro6.jpg" alt="" class="gallery__img gallery__img--small">
+            </div>
+            <div class="column column--50-25">
+              <img src="fotos/diadelteatro/diateatro11.jpg" alt="" class="gallery__img gallery__img--small">
+              <img src="fotos/diadelteatro/diateatro7.jpg" alt="" class="gallery__img gallery__img--small">
+            </div>
+            <div class="column column--50-25">
+              <img src="fotos/diadelteatro/diateatro4.jpg" alt="" class="gallery__img gallery__img--small">
+              <img src="fotos/diadelteatro/diateatro3.jpg" alt="" class="gallery__img gallery__img--small">
+            </div>
+            <div class="column column--50-25">
+              <img src="fotos/diadelteatro/diateatro10.jpg" alt="" class="gallery__img gallery__img--small">
+              <img src="fotos/diadelteatro/diateatro8.jpg" alt="" class="gallery__img gallery__img--small">
+            </div>
+            <div class="column column--50-25">
+              <img src="" alt="" class="gallery__img gallery__img--small">
+              <img src="" alt="" class="gallery__img gallery__img--small">
+            </div>
+            
+          </div>
+
+        </div>
 
       </main>
 
@@ -82,6 +150,7 @@
         </div>
       </footer>
       <script src="js/menu.js"></script>
+      <script src="js/modal.js"></script>
 
 
 
