@@ -124,6 +124,22 @@ h1,h2,h3,h4,h5,h6{
   width: 35px;
   height: 35px;
   
+}
+
+.social-icon2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-icon2 [class*="icon-"]{
+  color: black;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  font-size: 1.3em;
+  width: 35px;
+  height: 35px;
   
 }
 
