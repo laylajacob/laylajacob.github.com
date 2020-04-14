@@ -447,6 +447,10 @@ h1,h2,h3,h4,h5,h6{
   font-size: 1.1em;
 }
 
+.column--33{
+  width: 32%;
+}
+
 
 }
 
@@ -523,6 +527,11 @@ h1,h2,h3,h4,h5,h6{
   .column--50-25{
     width: 30%;
   }
+
+  .column--33{
+    width: 22%;
+  }
+
 
   .column__title{
     font-size: 1.9em;
