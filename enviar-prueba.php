@@ -1,4 +1,11 @@
 <?php
+$nombre=$POST["Nombre"];
+$correo=$POST["Correo"];
+$telefono=$POST["Telefono"];
+$mensaje=$POST["Mensaje"];
+
+$body="Nombre :" . $nombre . "<br>Correo: ". $correo . "<br>Telefono: ". $telefono . "<br>Mensaje: ". $mensaje .  . 
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
@@ -31,7 +38,10 @@ try {
    
 
     $mail->send();
-    echo 'el mensaje ha sido enviado';
+    echo '<script>
+      alert("mensaje enviado");
+      windows.histroy.go(-1);
+      </script>'
 } catch (Exception $e) {
     echo "hubo un error al enviar el mensaje: {$mail->ErrorInfo}";
 }
