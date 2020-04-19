@@ -4,7 +4,7 @@ $correo=$POST["Correo"];
 $telefono=$POST["Telefono"];
 $mensaje=$POST["Mensaje"];
 
-$body="Nombre :" . $nombre . "<br>Correo: ". $correo . "<br>Telefono: ". $telefono . "<br>Mensaje: ". $mensaje .  . 
+$body="Nombre :" . $nombre . "<br>Correo: ". $correo . "<br>Telefono: ". $telefono . "<br>Mensaje: ". $mensaje ; 
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
