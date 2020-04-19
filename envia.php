@@ -19,5 +19,5 @@ $asunto = 'Mensaje de mi sitio web';
 
 mail($para, $asunto, utf8_decode($mensaje), $header);
 
-header("Location:contacto.html");
+header("Location:index.html");
 ?>
